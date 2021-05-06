@@ -11,13 +11,19 @@ struct ContentView: View {
     @State private var showHello = true
     var body: some View {
         VStack{
-            Toggle(isOn: $showHello) {
-                Text("Show Hello!")
+            Toggle(isOn: $showHello, label: {
+                Text("Label")
+            })
+            .toggleStyle(SwitchToggleStyle(tint: Color.yellow))
+       // .padding()
+            if showHello {
+                Text("Helloef")
+                    .foregroundColor(.blue)
             }
-            .padding()
         }
     }
 }
+
 
 
 
