@@ -8,11 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var showHello = true
     var body: some View {
-        let colors = Gradient(colors: [.red, .yellow, .blue])
-        let gradient = AngularGradient(gradient: colors, center: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-        return Circle()
-            .strokeBorder(gradient, lineWidth: 50)
+        VStack{
+            Toggle(isOn: $showHello) {
+                Text("Show Hello!")
+            }
+            .padding()
+        }
     }
 }
 
