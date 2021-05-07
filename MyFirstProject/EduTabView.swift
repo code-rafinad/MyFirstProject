@@ -8,15 +8,15 @@
 import SwiftUI
 
 struct EduTabView: View {
-    @State private var selectedView = 1
+    @State private var selectedView = 2
     var body: some View {
         TabView(selection: $selectedView) {
-            Text("First View")
+            ThirdView()
                 .tabItem {
                     Image(systemName: "1.circle")
                     Text("First")
                 } .tag(1)
-            Text("Second View")
+            FirstView()
                 .tabItem {
                     Image(systemName: "2.circle")
                     Text("Second")
@@ -24,6 +24,7 @@ struct EduTabView: View {
         }
     }
 }
+
 
 struct EduTabView_Previews: PreviewProvider {
     static var previews: some View {
