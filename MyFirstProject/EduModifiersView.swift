@@ -7,14 +7,29 @@
 
 import SwiftUI
 
+struct CustomText: View {
+    var name: String
+    var body: some View {
+        Text(name)
+            .font(.largeTitle)
+            .padding()
+            .foregroundColor(.black)
+            .background(Color.pink)
+    }
+}
+
 struct EduModifiersView: View {
     @State private var useGreenText = false
     
     var body: some View {
-        Button("Hello, World!") {
-            self.useGreenText.toggle()
+        VStack(spacing: 20) {
+CustomText(name: "First")
+            CustomText(name: "Second")
+            Button("Change my color!") {
+                self.useGreenText.toggle()
+            }
+            .foregroundColor(useGreenText ? .green : .blue)
         }
-        .foregroundColor(useGreenText ? .green : .blue)
     }
 }
 
