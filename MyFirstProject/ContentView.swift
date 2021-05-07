@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
+   // init(){UIScrollView.appearance().bounces = true}
     @State private var name = ""
     @State private var password = ""
     @State private var showDetail = false
@@ -45,6 +46,14 @@ struct ContentView: View {
                 .onTapGesture {
                     print("Tapped")
                 }
+            Image("pp")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .frame(width: 20, height: 20)
+                .onTapGesture(count: 2) {
+                    print("Double Tapped")
+                }
+            
         }
     }
 }
