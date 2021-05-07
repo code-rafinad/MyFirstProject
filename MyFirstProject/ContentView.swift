@@ -41,6 +41,10 @@ struct ContentView: View {
                 .textFieldStyle(RoundedBorderTextFieldStyle())
             
             Text("Hello, \(name), your password is \(password), temperature is \(celcius) celcius, that \(celcius * 9/5 + 32) Farenheit. Your age is \(age)")
+            Text("Tap me")
+                .onTapGesture {
+                    print("Tapped")
+                }
         }
     }
 }
