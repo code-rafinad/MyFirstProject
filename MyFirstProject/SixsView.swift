@@ -11,6 +11,7 @@ import SwiftUI
 struct TaskRow: View {
     var body: some View {
         Text("Some Task")
+            .foregroundColor(.white)
     }
 }
 
