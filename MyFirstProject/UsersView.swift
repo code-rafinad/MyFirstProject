@@ -11,17 +11,21 @@ struct UsersView: View {
     @State private var users = ["Ian","Maria","Igor","Sergei","Boris"]
     var body: some View {
         NavigationView{
+            
             List{
                 ForEach(users, id: \.self) { user in
                     Text(user)
-                } .onDelete(perform: {_ in
-                    print("Deleted")
-                })
+                } .onDelete(perform: delete)
+                .onMove(perform: move)
             }
+            .navigationBarItems(trailing: EditButton())
         }
     }
     func delete(att offsets: IndexSet) {
         users.remove(atOffsets: offsets)
+    }
+    func move(from source: IndexSet, to destination: Int) {
+        users.move(fromOffsets: source, toOffset: destination)
     }
 }
 
