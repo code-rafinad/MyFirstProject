@@ -23,14 +23,14 @@ struct SixsView: View {
                 TaskRow()
                 TaskRow()
                 
-            }
+            }.listRowBackground(Color.yellow)
             Section(header: Text("Other Tasks")) {
                 TaskRow()
                 TaskRow()
                 TaskRow()
                 TaskRow()
                 
-            }
+            }.listRowBackground(Color.pink)
         }
         .listStyle(GroupedListStyle())
     }
