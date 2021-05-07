@@ -14,6 +14,7 @@
 		11E9F68726452651002A20B3 /* FivesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E9F68626452651002A20B3 /* FivesView.swift */; };
 		11E9F68926452924002A20B3 /* SixsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E9F68826452924002A20B3 /* SixsView.swift */; };
 		11E9F68B264530DF002A20B3 /* NavigView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E9F68A264530DF002A20B3 /* NavigView.swift */; };
+		11E9F68D264538CE002A20B3 /* UsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E9F68C264538CE002A20B3 /* UsersView.swift */; };
 		11FA9C60264481A000FDEF66 /* MyFirstProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FA9C5F264481A000FDEF66 /* MyFirstProjectApp.swift */; };
 		11FA9C62264481A000FDEF66 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FA9C61264481A000FDEF66 /* ContentView.swift */; };
 		11FA9C64264481A100FDEF66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11FA9C63264481A100FDEF66 /* Assets.xcassets */; };
@@ -28,6 +29,7 @@
 		11E9F68626452651002A20B3 /* FivesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FivesView.swift; sourceTree = "<group>"; };
 		11E9F68826452924002A20B3 /* SixsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixsView.swift; sourceTree = "<group>"; };
 		11E9F68A264530DF002A20B3 /* NavigView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigView.swift; sourceTree = "<group>"; };
+		11E9F68C264538CE002A20B3 /* UsersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersView.swift; sourceTree = "<group>"; };
 		11FA9C5C264481A000FDEF66 /* MyFirstProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11FA9C5F264481A000FDEF66 /* MyFirstProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstProjectApp.swift; sourceTree = "<group>"; };
 		11FA9C61264481A000FDEF66 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				11FA9C5F264481A000FDEF66 /* MyFirstProjectApp.swift */,
 				11FA9C61264481A000FDEF66 /* ContentView.swift */,
 				11E9F68A264530DF002A20B3 /* NavigView.swift */,
+				11E9F68C264538CE002A20B3 /* UsersView.swift */,
 				11E9F68026451ADC002A20B3 /* FirstView.swift */,
 				11E9F67E2645196D002A20B3 /* SecondView.swift */,
 				11E9F68226451D11002A20B3 /* ThirdView.swift */,
@@ -164,6 +167,7 @@
 				11E9F68326451D11002A20B3 /* ThirdView.swift in Sources */,
 				11E9F68126451ADC002A20B3 /* FirstView.swift in Sources */,
 				11E9F68926452924002A20B3 /* SixsView.swift in Sources */,
+				11E9F68D264538CE002A20B3 /* UsersView.swift in Sources */,
 				11FA9C62264481A000FDEF66 /* ContentView.swift in Sources */,
 				11E9F6852645206C002A20B3 /* FoursView.swift in Sources */,
 				11FA9C60264481A000FDEF66 /* MyFirstProjectApp.swift in Sources */,
