@@ -17,6 +17,7 @@
 		11E9F68D264538CE002A20B3 /* UsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E9F68C264538CE002A20B3 /* UsersView.swift */; };
 		11E9F68F26454677002A20B3 /* EduTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E9F68E26454677002A20B3 /* EduTabView.swift */; };
 		11E9F69126454EB7002A20B3 /* EduFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E9F69026454EB7002A20B3 /* EduFormView.swift */; };
+		11E9F6AE264561B9002A20B3 /* EduAlertsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E9F6AD264561B9002A20B3 /* EduAlertsView.swift */; };
 		11FA9C60264481A000FDEF66 /* MyFirstProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FA9C5F264481A000FDEF66 /* MyFirstProjectApp.swift */; };
 		11FA9C62264481A000FDEF66 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FA9C61264481A000FDEF66 /* ContentView.swift */; };
 		11FA9C64264481A100FDEF66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11FA9C63264481A100FDEF66 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 		11E9F68C264538CE002A20B3 /* UsersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersView.swift; sourceTree = "<group>"; };
 		11E9F68E26454677002A20B3 /* EduTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EduTabView.swift; sourceTree = "<group>"; };
 		11E9F69026454EB7002A20B3 /* EduFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EduFormView.swift; sourceTree = "<group>"; };
+		11E9F6AD264561B9002A20B3 /* EduAlertsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EduAlertsView.swift; sourceTree = "<group>"; };
 		11FA9C5C264481A000FDEF66 /* MyFirstProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11FA9C5F264481A000FDEF66 /* MyFirstProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstProjectApp.swift; sourceTree = "<group>"; };
 		11FA9C61264481A000FDEF66 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				11FA9C5F264481A000FDEF66 /* MyFirstProjectApp.swift */,
 				11E9F68E26454677002A20B3 /* EduTabView.swift */,
 				11E9F69026454EB7002A20B3 /* EduFormView.swift */,
+				11E9F6AD264561B9002A20B3 /* EduAlertsView.swift */,
 				11FA9C61264481A000FDEF66 /* ContentView.swift */,
 				11E9F68A264530DF002A20B3 /* NavigView.swift */,
 				11E9F68C264538CE002A20B3 /* UsersView.swift */,
@@ -172,6 +175,7 @@
 				11E9F68B264530DF002A20B3 /* NavigView.swift in Sources */,
 				11E9F68326451D11002A20B3 /* ThirdView.swift in Sources */,
 				11E9F68126451ADC002A20B3 /* FirstView.swift in Sources */,
+				11E9F6AE264561B9002A20B3 /* EduAlertsView.swift in Sources */,
 				11E9F68926452924002A20B3 /* SixsView.swift in Sources */,
 				11E9F68D264538CE002A20B3 /* UsersView.swift in Sources */,
 				11FA9C62264481A000FDEF66 /* ContentView.swift in Sources */,
