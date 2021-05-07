@@ -12,11 +12,18 @@ struct ContentView: View {
     @State private var password = ""
     @State private var showDetail = false
     @State private var celcius: Double = 0
+    @State private var age = 18
     var colors = ["black", "white", "red", "green", "blue"]
     @State private var selectedColor = 0
     var textButton = 1
     var body: some View {
         VStack{
+            Stepper("Enter your age", value: $age, in: 0...130)
+            Stepper("Enter your super age", onIncrement: {
+                self.age += 5
+            }, onDecrement: {
+                self.age -= 5
+            })
             Picker(selection: $selectedColor, label: Text("Chose a color"), content: {
                 ForEach(0..<colors.count)
                 {
@@ -33,7 +40,7 @@ struct ContentView: View {
             SecureField("Enter your password", text: $password)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
             
-            Text("Hello, \(name), your password is \(password), temperature is \(celcius) celcius, that \(celcius * 9/5 + 32) Farenheit")
+            Text("Hello, \(name), your password is \(password), temperature is \(celcius) celcius, that \(celcius * 9/5 + 32) Farenheit. Your age is \(age)")
         }
     }
 }
