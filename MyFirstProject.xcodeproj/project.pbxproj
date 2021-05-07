@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		116130C22645896000F50102 /* EduModifiersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116130C12645896000F50102 /* EduModifiersView.swift */; };
 		11E9F67F2645196D002A20B3 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E9F67E2645196D002A20B3 /* SecondView.swift */; };
 		11E9F68126451ADC002A20B3 /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E9F68026451ADC002A20B3 /* FirstView.swift */; };
 		11E9F68326451D11002A20B3 /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E9F68226451D11002A20B3 /* ThirdView.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		116130C12645896000F50102 /* EduModifiersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EduModifiersView.swift; sourceTree = "<group>"; };
 		11E9F67E2645196D002A20B3 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 		11E9F68026451ADC002A20B3 /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
 		11E9F68226451D11002A20B3 /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 				11E9F68E26454677002A20B3 /* EduTabView.swift */,
 				11E9F69026454EB7002A20B3 /* EduFormView.swift */,
 				11E9F6AD264561B9002A20B3 /* EduAlertsView.swift */,
+				116130C12645896000F50102 /* EduModifiersView.swift */,
 				11FA9C61264481A000FDEF66 /* ContentView.swift */,
 				11E9F68A264530DF002A20B3 /* NavigView.swift */,
 				11E9F68C264538CE002A20B3 /* UsersView.swift */,
@@ -171,6 +174,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				116130C22645896000F50102 /* EduModifiersView.swift in Sources */,
 				11E9F67F2645196D002A20B3 /* SecondView.swift in Sources */,
 				11E9F68B264530DF002A20B3 /* NavigView.swift in Sources */,
 				11E9F68326451D11002A20B3 /* ThirdView.swift in Sources */,
