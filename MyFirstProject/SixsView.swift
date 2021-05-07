@@ -32,6 +32,7 @@ struct SixsView: View {
                 
             }
         }
+        .listStyle(GroupedListStyle())
     }
 }
 
