@@ -36,6 +36,8 @@ struct EduModifiersView: View {
             CustomText(name: "Second")
             Text("FFFFFFFFFFF")
                 .modifier(customModifier())
+            Text("AAAAAAA")
+                .customM()
             Button("Change my color!") {
                 self.useGreenText.toggle()
             }
@@ -47,5 +49,12 @@ struct EduModifiersView: View {
 struct EduModifiersView_Previews: PreviewProvider {
     static var previews: some View {
         EduModifiersView()
+    }
+}
+
+
+extension View {
+    func customM() -> some View {
+        self.modifier(customModifier())
     }
 }
