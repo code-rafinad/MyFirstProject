@@ -7,6 +7,16 @@
 
 import SwiftUI
 
+struct customModifier: ViewModifier {
+    func body(content: Content) -> some View {
+        content
+            .font(.largeTitle)
+            .foregroundColor(.pink)
+            .padding()
+            .background(Color.black)
+    }
+}
+
 struct CustomText: View {
     var name: String
     var body: some View {
@@ -20,11 +30,12 @@ struct CustomText: View {
 
 struct EduModifiersView: View {
     @State private var useGreenText = false
-    
     var body: some View {
         VStack(spacing: 20) {
-CustomText(name: "First")
+            CustomText(name: "First")
             CustomText(name: "Second")
+            Text("FFFFFFFFFFF")
+                .modifier(customModifier())
             Button("Change my color!") {
                 self.useGreenText.toggle()
             }
